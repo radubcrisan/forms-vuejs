@@ -101,7 +101,7 @@
                         <h4>Your Data</h4>
                     </div>
                     <div class="panel-body">
-                        <p>Mail: {{ email }}</p>
+                        <p>Mail:</p>
                         <p>Password:</p>
                         <p>Age:</p>
                         <p>Message: </p>
