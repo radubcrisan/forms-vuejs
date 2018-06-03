@@ -13,7 +13,11 @@
 
 <script>
     export default {
-        props: ['value'],
+        data() {
+            return {
+                value: true
+            }
+        },
         methods: {
             switched(isOn) {
                 this.$emit('input', isOn);
